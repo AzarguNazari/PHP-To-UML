@@ -1,0 +1,3 @@
+patterns = patterns.IdentityPattern; patterns.DecoratorPattern
+recursive = false;
+exporter = exporters.FileExporter(./output/out.dot)

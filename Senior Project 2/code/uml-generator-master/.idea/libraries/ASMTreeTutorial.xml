@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ASMTreeTutorial">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/asm-all-5.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/asm-5.0.4-bin.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

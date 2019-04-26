@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ASMTreeTutorial.iml" filepath="$PROJECT_DIR$/ASMTreeTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asm-5.0.4/examples/adapt/adapt.iml" filepath="$PROJECT_DIR$/asm-5.0.4/examples/adapt/adapt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asm-5.0.4/examples/analysis/analysis.iml" filepath="$PROJECT_DIR$/asm-5.0.4/examples/analysis/analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asm-5.0.4/examples/annotations/annotations.iml" filepath="$PROJECT_DIR$/asm-5.0.4/examples/annotations/annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asm-5.0.4/examples/attributes/attributes.iml" filepath="$PROJECT_DIR$/asm-5.0.4/examples/attributes/attributes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asm-5.0.4/examples/compile/compile.iml" filepath="$PROJECT_DIR$/asm-5.0.4/examples/compile/compile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asm-5.0.4/examples/compile-indy/compile-indy.iml" filepath="$PROJECT_DIR$/asm-5.0.4/examples/compile-indy/compile-indy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asm-5.0.4/examples/dependencies/dependencies.iml" filepath="$PROJECT_DIR$/asm-5.0.4/examples/dependencies/dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asm-5.0.4/examples/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/asm-5.0.4/examples/helloworld/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asm-5.0.4/examples/jasmin/jasmin.iml" filepath="$PROJECT_DIR$/asm-5.0.4/examples/jasmin/jasmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asm-5.0.4/examples/jbfc/jbfc.iml" filepath="$PROJECT_DIR$/asm-5.0.4/examples/jbfc/jbfc.iml" />
+    </modules>
+  </component>
+</project>

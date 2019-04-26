@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jasmin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/asm-5.0.4/examples/jasmin/test/jasmin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

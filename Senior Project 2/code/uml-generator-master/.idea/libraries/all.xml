@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/asm-5.0.4/lib/all/asm-debug-all-5.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/asm-5.0.4/lib/all/asm-all-5.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
