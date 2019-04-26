@@ -30,11 +30,6 @@
 
       </div>
                 </div>
-                <div class="col-sm-4 offset-md-1 py-4">
-                    <a role="button" class="btn btn-outline-success btn-block" href="signin.php">Login / Register</a>
-                    <a role="button" class="btn btn-outline-success btn-block" href="addCommunity.php">Add Community</a>
-                    <a role="button" class="btn btn-outline-success btn-block" href="uml_generator.php">Generate UML Diagrams</a>
-                </div>
             </div>
         </div>
     </div>
