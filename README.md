@@ -4,5 +4,8 @@ A tool that helps developers to generate their UML diagram through uploading the
 # The Uploading Page
 ![The uploading files page](https://github.com/AzarguNazari/PHPtoUML/blob/master/snapshot/input%20option.png)
 
+# Generating
+![Generating](https://github.com/AzarguNazari/PHPtoUML/blob/master/snapshot/geneating.png)
+
 # The Genergated UML Diagram from source code
 ![Generated UML Diagram](https://github.com/AzarguNazari/PHPtoUML/blob/master/snapshot/generatedUML.png)
