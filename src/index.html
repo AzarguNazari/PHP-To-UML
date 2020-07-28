@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Dev Community is an online community for web developers and programmers where they can chat, exchange ideas or to generate UML diagram from PHP source code">
+        <meta name="author" content="Hazar Gul Nazari">
+        <link rel="icon" href="assets/media/images/logo.gif">
+        <!-- Bootstrap core CSS -->
+        <link href="assets/css/vendor/bootstrap.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <!-- main configuration -->
+        <link rel="stylesheet" href="assets/css/main.css" >
+        <title>UML Generator</title>
+        <link rel="stylesheet" href="assets/css/mainPage.css">
+    </head>
+    
+    <body class="scroll main-bg">
+        
+        <header>
+    <div class="collapse text-dark" id="navbarHeader" style="background-color: #FDF6E3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4>About</h4>
+                    <!-- bring changes -->
+                    <p class="text-muted">Developers Community is an application for connecting develoers all around the world, it also let the developers to generate the UML diagrams from their PHP 5.0 source code</p>
+                    <div class="container marketing">
+
+                <div class="row text-center">
+                  <div class="col-lg-4">
+                    <img class="rounded-circle" src="resume/medesaturated.jpg" alt="Azargul Nazari Picture" width="140" height="140">
+                    <p><b>Hazar Gul Nazari</b></p>
+                    <p><small>Undergradate Student in King Abdulaziz University and this senior project is developed by Hazargul Nazari</small></p>
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-lg-4">
+                    <img class="rounded-circle" src="resume/drfathydesaturated.png" alt="Professor Fathy Picture" width="140" height="140">
+                    <p><b>Prof. Fathy Eassa</b></p>
+                    <p>Professor Fathy Eassa is the main supervisor for this senior project</p>
+                    <p><a class="btn btn-success" href="resume/profFathy.PDF" role="button">Know More</a></p>
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-lg-4">
+                    <img class="rounded-circle" src="resume/drkamaldesaturated.png" alt="Professor Kamal Jambi Picture" width="140" height="140">
+                    <p><b>Prof. Kamal Jambi</b></p>
+                    <p>Professor Jambi is the co-supervisor for this senior project</p>
+                    <p><a class="btn btn-success" href="resume/profKamal.PDF" role="button">Know More</a></p>
+                  </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+
+      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-light box-shadow text-dark" style="box-shadow: 0 -2px #777; border-bottom: 1px solid #444">
+        <div class="container d-flex justify-content-between">
+            <a href="index.php" class="navbar-brand d-flex align-items-center">
+                <strong class="text-success">Dev Community</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+</header>       
+
+        <main id="main"  style="min-height: 650px;">
+            <section class="main-bg">
+        </section>
+          
+            <div class="container text-center">
+                    <table class="table table-dark table-bg mt-2 round">
+                        <tr>
+                            <td colspan="3">
+                                <p><b>Note: </b> For now, we only support PHP source code</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="h3">Language</th>
+                            <th class="h3">UML Generator Avaiabile</th>
+                            <th class="h3">Upload</th>
+                        </tr>
+                        <tr>
+                            <td>PHP</td>
+                            <td>Yes</td>
+                            <td class="text-left">
+                                <form class="md-form form-signin" action="uml_generator/index.php" method="post" enctype="multipart/form-data" id="umlUpload">
+                                    <input name="upload[]" type="file" multiple="multiple" id="phpfile" accept=".php"/>
+                                    <input type="button" class="btn btn-lg btn-success mt-2" value="Upload" id="submitButton">
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Java</td>
+                            <td>No</td>
+                            <td>
+                                <button class="btn btn-danger disabled">Upload</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>No</td>
+                            <td><button class="btn btn-danger disabled">Upload</button></td>
+                        </tr>
+                        <tr>
+                            <td>C++</td>
+                            <td>No</td>
+                            <td><button class="btn btn-danger disabled">Upload</button></td>
+                        </tr>
+                    </table>
+                    
+            
+            </div>
+            
+            
+           
+        </main>
+
+        <div id="gear"></div>
+        
+        
+        <footer class="text-muted bg-light" style="border-top: 2px solid #999">
+    <div class="container">
+        <p class="float-right">
+            <a href="#" class="btn btn-outline-success"><i class="fas fa-arrow-up"></i></a>
+        </p>
+        <div class="row">
+            <div class="col">
+                <p>Created by <a href="https://www.linkedin.com/in/azargul-nazari-a4986387/">Hazagul Nazari</a></p>
+                <p>Senior Project CPCS-498 & CPCS-499</p>
+                <p>Supervised by Dr. Issa Fathy & Dr. Kamal Jambi</p>
+            </div>
+            <div class="col">
+                <p class="lead">About</p>
+                <p>This is my senior project work which is a platform to let the programmers and software developers to generate the UML diagram from PHP source code.</p>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script src="assets/js/vendor/jquery.js"></script>
+<script src="assets/js/vendor/popper.js"></script>
+<script src="assets/js/vendor/bootstrap.js"></script>        
+        <script>
+            $(document).ready(function(){
+                $(".btn").data("toggle", "toggle");
+                
+                
+               var gear = $("#gear").width($("body").width()).height($("body").height());
+               
+               $("#submitButton").click(function(){
+                   if($("#phpfile").get(0).files.length === 0){
+                      alert("Please upload at least one PHP file");
+                   }
+                   else{
+                       gear.css("display", "block");
+                       setTimeout(function(){
+                           $("#umlUpload").submit();
+                       }, 2000);
+                       
+                   }
+               });
+                
+            });    
+         
+        
+        </script>
+            
+        
+    </body>
+</html>
