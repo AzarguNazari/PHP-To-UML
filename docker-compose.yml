@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  php-to-uml:
+    container_name: "php-to-uml-converter"
+    build:
+      context: ./
+    ports:
+      - 80:80
