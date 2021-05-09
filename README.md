@@ -8,7 +8,7 @@ A tool to generate UML diagram by uploading the PHP code
 # How it works?
 - Open the upload page
 - Uload your PHP classes or files
-- the generated UML will be shown.
+- The generated UML will be shown and users can interact, zoom in/out, and download its image. 
 
 There are are already some some PHP example files [example 1](https://github.com/AzarguNazari/PHP-To-UML/tree/master/src/Tests/test1) and [example 2](https://github.com/AzarguNazari/PHP-To-UML/tree/master/src/Tests/test2) which you can upload and check the result.
 ![The uploading files page](https://github.com/AzarguNazari/PHPtoUML/blob/master/snapshot/input%20option.png)
