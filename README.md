@@ -1,5 +1,5 @@
-# PHPtoUML
-A tool that helps developers to generate their UML diagram through uploading their PHP code
+# PHP to UML
+A tool to generate UML diagram by uploading the PHP code
 
 ## How to run it?
 - If you have docker-compose, just type `docker-compose up -d` and access it on `localhost`
