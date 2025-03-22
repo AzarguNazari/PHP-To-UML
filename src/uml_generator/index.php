@@ -37,24 +37,10 @@
                 <!-- the introduction side --->
 		<div id="about" class="sidebar">
 			<div class="content">
-				<p>Hello, this is PHP 5.0 UML generator, my senior project at FCIT (Faculty of Computing and Information Technology)
-                                <p>Created by <a href="mailto:nazariazargulazargul@gmail.com"><b>Hazar Gul Nazari</b></a></p>
+				<p>Hello, this is PHP 5.0 UML generator</p>
 				<hr>
                                 
-                                <div style="text-align: center; color: #222">
-                                    <h2>Project Contributors</h2>
-                                    <img src="../resume/medesaturated.jpg" width="50%" style="border-radius: 50%">
-                                    <p><b>Hazar Gul</b></p>
-                                    <p>Undergradate Student in King Abdulaziz University and this senior project is developed by Hazargul Nazari</p>
-                                    <img src="../resume/drfathydesaturated.png" width="50%" style="border-radius: 50%">
-                                    <p><b>Prof. Fathy Eassa</b></p>
-                                    <p>Professor Fathy Eassa is the main supervisor for this senior project</p>
-                                    <img src="../resume/drkamaldesaturated.png" width="50%" style="border-radius: 50%">
-                                    <p><b>Prof. Kamal Jambi</b></p>
-                                    <p>Professor Jambi is the co-supervisor for this senior project</p>
-                                </div>
-                                
-                                <h2>Interaction</h2>
+				<h2>Interaction</h2>
 				<p>The canvas can be panned and zoomed by dragging and scrolling in the right hand third of the canvas.
 				</p>
 				<p>Downloaded image files will be given the filename in the <tt>#title</tt> directive.
