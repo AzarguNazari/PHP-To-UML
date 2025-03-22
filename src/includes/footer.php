@@ -3,18 +3,6 @@
         <p class="float-right">
             <a href="#" class="btn btn-outline-success"><i class="fas fa-arrow-up"></i></a>
         </p>
-        <div class="row">
-            <div class="col">
-                <p>Created by <a href="https://www.linkedin.com/in/azargul-nazari-a4986387/">Hazagul Nazari</a></p>
-                <p>Senior Project CPCS-498 & CPCS-499</p>
-                <p>Supervised by Dr. Issa Fathy & Dr. Kamal Jambi</p>
-            </div>
-            <div class="col">
-                <p class="lead">About</p>
-                <p>This is my senior project work which is a platform to let the programmers and software developers to generate the UML diagram from PHP source code.</p>
-            </div>
-        </div>
-        
     </div>
 </footer>
 <!-- Bootstrap core JavaScript
